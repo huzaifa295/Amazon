@@ -1,144 +1,139 @@
-@media only screen and (max-width:1260px){
-    .nav_logo {
-        height: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-          }
-      .nav_adress {
-        height: 70%;
-        width: 100px;
-        display: flex;
-        flex-direction: column;
-          }
-      .adress1 {
-        height: 50%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-      }
-      .adress1 p {
-        font-size: 0.75rem;
-        font-weight: 300;
-        color: white;
-      }
-      .adress2 {
-        height: 50%;
-        width: 100%;
-        display: flex;
-      }
-      .adress2 p {
-        font-size: 0.85rem;
-        font-weight: 600;
-        color: white;
-      }
-      .nav_search {
-        height: 70%;
-        width: 600px;
-          }
-      .search_select {
-        height: 100%;
-        width: 10%;
-      }
-      .search_select select {
-        height: 100%;
-        width: 100%;
-      }
-      .search_search {
-        height: 100%;
-        width: 80%;
-        border: none;
-      }
-      .search_search input {
-        height: 100%;
-        width: 100%;
-        padding-left: 20px;
-        font-size: 0.85rem;
-      }
-      .search_icon {
-        height: 100%;
-        width: 10%;
-      }
-      .nav_language {
-        height: 70%;
-        width: 90px;
-          }
-      .language_img {
-        height: 70%;
-        width: 70px;
-          }
-      .language_select {
-        height: 100%;
-      }
-      .language_select select {
-        height: 70%;
-        width: 100%;
-        font-size: 0.85rem;
-        font-weight: 600;
-          }
-      .nav_signin {
-        height: 70%;
-          }
-      .signin_para1 {
-        height: 50%;
-        width: 100%;
-      }
-      .signin_para1 p {
-        font-size: 0.75rem;
-        font-weight: 300;
-      }
-      .signin_para2 {
-        height: 50%;
-        width: 100%;
-      }
-      .signin_para2 p {
-        font-size: 0.85rem;
-        font-weight: 500;
-      }
-      .nav_deal {
-        height: 70%;
-          }
-      .deal_para1 {
-        height: 50%;
-        width: 100%;
-      }
-      .deal_para1 p {
-        font-size: 0.75rem;
-        font-weight: 300;
-      }
-      .deal_para2 {
-        height: 50%;
-        width: 100%;
-      }
-      .deal_para2 p {
-        font-size: 0.85rem;
-        font-weight: 400;
-      }
-      
-      .nav_cart {
-        height: 70%;
-          }
-      .cart_img {
-        height: 100%;
-        width: 50%;
-
-      }
-      .cart_p {
-        height: 100%;
-        width: 50%;
-      }
-      .cart_p p {
-        font-size: 1rem;
-        font-weight: 600;
-      }
-}
-@media only screen and(max-width:1240px){
+@media only screen and (max-width:1400px){
+  .nav_language{
+    display: none;
+  }
+  .nav_signin{
+    display: none;
+  }
+  .nav_deal{
+    display: none;
+  }
+  .nav_cart{
+    display: none;
+  }
+  .menu{
+    height: 80%;
+  }
+  .menu svg{
+    height: 100%;
+  }
   .nav_search {
     height: 70%;
-    width: 600px;
+    width: 60vw;
+    display: flex;
   }
 }
 
+@media only screen and (max-width:950px){
+  .nav_adress{
+    display: none;
+  }
+}
+@media only screen and (max-width:800px){
+  .nav_logo {
+    height: 75%;
+  }
+  .nav_search{
+    width: 60%;
+  }
+  .search_select {
+    width: 15%;
+  }
+  .menu{
+    height: 70%;
+  }
+}
+@media only screen and (max-width:700px){
+  .nav_logo {
+    height: 75%;
+  }
+  .nav_search{
+    width: 65%;
+    padding-left: 30px;
+  }
+  .search_select {
+    width: 15%;
+  }
+  .menu{
+    height: 65%;
+  }
+}
+@media only screen and (max-width:615px){
+  .nav_logo {
+    height: 75%;
+  }
+  .nav_search{
+    width: 70%;
+  }
+  .search_select {
+    width: 15%;
+  }
+  .menu{
+    height: 65%;
+  }
+}
+@media only screen and (max-width:555px){
+  .nav_search{
+    width: 75%;
+  }
+  .search_search{
+    width: 60%;
+  }
+}
+@media only screen and (max-width:500px){
+  .nav_search{
+    width: 100%;
+  }
+  .search_select{
+    width: 20%;
+  }
+  .search_select select{
+    font-size: 0.85rem;
+  }
+  .search_search input{
+    font-size: 0.85rem;
+    padding-left: 5px;
+  }
+}
+@media only screen and (max-width:450px){
+  .nav_search{
+    display: none;
+  }
+  .nav_bar{
+    justify-content: space-between;
+  }
+  .nav_logo{
+    margin-left: 10px;
+  }
+  .menu{
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width:1300px){
+  .panel_box1{
+    width: 50%;
+    justify-content: space-between;
+    padding-left: 20px;
+  } 
+}
+@media only screen and (max-width:1000px){
+  .panel_box1{
+    width: 60%;
+  } 
+}
+@media only screen and (max-width:850px){
+  .panel_box1{
+    width: 65%;
+  } 
+  .panel_box p{
+    font-size: 0.75rem;
+  } 
+}
+@media only screen and (max-width:700px){
+  .panel_box{
+    display: none;
+  } 
+}
 @media only screen and (max-width:1330px){
   .carousel-control-prev-icon{
     margin-top: 100px;
@@ -663,6 +658,9 @@ font-weight: 400;
     font-weight: 300;
     line-height: 12px;
   }
+  .signup h2{
+    font-size: 2rem;
+  }
 }
 @media only screen and (min-width:2000px){
   .cart {
@@ -670,4 +668,38 @@ font-weight: 400;
     width: 22%;
     margin-top: 30px;
   } 
+  .nav_search {
+    height: 80%;
+    width: 950px;
+  }
+}
+@media only screen and (max-width:520px){
+  .signin{
+    height: 500px;
+    width: 90%;
+}
+.create_account{
+  height: 100px;
+  width: 90%;
+}
+}
+@media only screen and (max-width:450px){
+  .signin{
+    height: 550px;
+    width: 90%;
+}
+.copyright p{
+  font-size: 0.95rem;
+}
+}
+@media only screen and (max-width:850px){
+  .links{
+    display: none;
+  }
+}
+@media only screen and (max-width:515px){
+  .signup{
+    /* height: 550px; */
+    width: 90%;
+}
 }

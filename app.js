@@ -25,10 +25,22 @@ function OnSubmit(){
     var email= document.getElementById('email').value
     var pass= document.getElementById('pass').value
     console.log(name,email,pass)
-
-    if(!name || !email || !pass){
+    if((!name || !email || !pass)){
         alert("Please fill required fields")
-    }else{
+        return
+    }
+    var email_check=email.indexOf("@gmail.com")
+    if(email_check==-1){
+        alert("Invalid email")
+        return
+    }
+    // pass= pass.length
+    console.log(pass)
+    if(pass.length<4){
+        alert("Passward must be contains 4 digits")
+        return
+    }
+    if(!(email_check==-1) && !(pass<4)){
         window.location.href='./home.html'
     }
 }

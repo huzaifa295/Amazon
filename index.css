@@ -89,7 +89,7 @@
     flex-direction: column;
 }
 
-.links{
+.link{
     height: 50%;
     width: 100%;
     gap: 30px;
@@ -98,7 +98,7 @@
     justify-content: center;
     color: #0066c0;
 }
-.links a{
+.link a{
     color: #0066c0;
 }
 .copyright{

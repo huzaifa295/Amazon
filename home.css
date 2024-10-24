@@ -218,12 +218,12 @@ body {
   border-radius: 2px;
   cursor: pointer;
 }
-.left_icon{
+.left_icon {
   position: absolute;
   top: 20%;
   left: 5%;
 }
-.right_icon{
+.right_icon {
   position: absolute;
   top: 20%;
   right: 5%;
